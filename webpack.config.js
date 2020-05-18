@@ -76,7 +76,7 @@ module.exports = function(_env, argv) {
       new HtmlWebpackPlugin({
         template: path.resolve(__dirname, 'public/index.html'),
         inject:true,
-        favicon: 'src/react-icon.png'
+        favicon: 'public/react-icon.ico'
       })
     ].filter(Boolean),
     optimization: {
